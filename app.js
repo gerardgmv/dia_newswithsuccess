@@ -1,9 +1,9 @@
-const frm = document.querySelector("#frm");
-const email = document.querySelector("#email");
-const wmain = document.querySelector("#wmain");
-const wsuccess = document.querySelector("#wsuccess");
-const btndismiss = document.querySelector("#btn_dismiss");
-const errmsg = document.querySelector("#errmsg");
+const frm = document.querySelector("#frm"); //formulario
+const wmain = document.querySelector("#wmain"); //main
+const wsuccess = document.querySelector("#wsuccess"); //div
+const errmsg = document.querySelector("#errmsg"); // span
+const btndismiss = document.querySelector("#btn_dismiss"); //boton
+const email = document.querySelector("#email"); //input
 
 var exp = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
 
